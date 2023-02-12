@@ -1,0 +1,75 @@
+2023-02-08T17:25:43.936+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T17:25:44.040+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T17:25:44.047+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T17:25:45.873+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T17:25:45.896+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T17:25:45.896+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T17:25:45.897+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T17:25:45.897+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T17:25:45.903+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T17:25:47.089+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T17:25:49.009+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41f4039e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-08T17:59:38.939+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T17:59:39.033+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T17:59:39.039+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T17:59:40.787+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T17:59:40.796+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T17:59:40.796+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T17:59:40.797+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T17:59:40.797+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T17:59:40.802+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T17:59:41.614+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T17:59:43.172+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-08T18:00:08.599+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:00:08.696+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:00:08.701+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:00:10.078+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T18:00:10.088+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T18:00:10.088+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T18:00:10.089+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T18:00:10.089+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T18:00:10.095+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T18:00:10.931+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T18:00:12.492+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-08T18:01:31.061+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:01:31.156+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:01:31.161+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:02:03.992+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:02:04.076+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:02:04.082+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:02:30.754+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:02:30.857+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:02:30.862+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:02:32.032+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T18:02:32.042+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T18:02:32.044+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T18:02:32.044+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T18:02:32.045+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T18:02:32.050+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T18:02:32.927+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T18:02:34.274+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-08T18:09:25.520+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:09:25.606+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:09:25.611+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:09:26.614+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T18:09:26.622+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T18:09:26.623+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T18:09:26.623+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T18:09:26.624+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T18:09:26.628+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T18:09:27.659+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T18:09:28.780+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-08T18:13:49.637+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-08T18:13:49.720+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-08T18:13:49.725+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-08T18:13:50.791+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-08T18:13:50.797+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-08T18:13:50.798+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-08T18:13:50.798+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-08T18:13:50.799+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-08T18:13:50.803+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-08T18:13:51.499+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-08T18:13:52.750+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-10T18:16:05.228+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-10T18:16:06.065+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-10T18:16:06.127+0200 INFO HHH000406: Using bytecode reflection optimizer
