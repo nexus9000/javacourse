@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a33c4eb-79e5-4cd7-9f1a-41bd6c4df6cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/ComputerScience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/ListPersons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/SystemLogging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/oop/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/itstep/java_course_2023/run/RunApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/itstep/java_course_2023/run/RunAppTest.java" afterDir="false" />
+    <list default="true" id="3a33c4eb-79e5-4cd7-9f1a-41bd6c4df6cd" name="Changes" comment="recent version">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/warning/action.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/warning/meaning.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/itstep/java_course_2023/oop/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/itstep/java_course_2023/props/PropsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/itstep/java_course_2023/streams/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -68,31 +63,34 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;edu.itstep.java_course_2023.oop.Person&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/JAVA-COURSE-2023/Calculator/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/JAVA-COURSE-2023/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.4&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\JAVA-COURSE-2023\src\main\resources" />
       <recent name="C:\Users\User\IdeaProjects\JAVA-COURSE-2023\Calculator\src\main\resources" />
       <recent name="C:\Users\User\IdeaProjects\JAVA-COURSE-2023" />
-      <recent name="C:\Users\User\IdeaProjects\JAVA-COURSE-2023\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="edu.itstep.java_course_2023.oop.Person" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.itstep.java_course_2023.oop" />
       <recent name="edu.itstep.calculator" />
       <recent name="edu.itstep.java_course_2023.run" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListPersons">
+  <component name="RunManager" selected="JUnit.StreamTest.testStringMap">
     <configuration name="ListPersons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="16" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -117,17 +115,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunAppTest.minus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PropsTest.streamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-COURSE-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.itstep.java_course_2023.run.*" />
+          <option name="PATTERN" value="edu.itstep.java_course_2023.props.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.itstep.java_course_2023.run" />
-      <option name="MAIN_CLASS_NAME" value="edu.itstep.java_course_2023.run.RunAppTest" />
-      <option name="METHOD_NAME" value="minus" />
+      <option name="PACKAGE_NAME" value="edu.itstep.java_course_2023.props" />
+      <option name="MAIN_CLASS_NAME" value="edu.itstep.java_course_2023.props.PropsTest" />
+      <option name="METHOD_NAME" value="streamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropsTest.useGuava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA-COURSE-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.itstep.java_course_2023.props.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.itstep.java_course_2023.props" />
+      <option name="MAIN_CLASS_NAME" value="edu.itstep.java_course_2023.props.PropsTest" />
+      <option name="METHOD_NAME" value="useGuava" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA-COURSE-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.itstep.java_course_2023.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.itstep.java_course_2023.streams" />
+      <option name="MAIN_CLASS_NAME" value="edu.itstep.java_course_2023.streams.StreamTest" />
+      <option name="METHOD_NAME" value="testMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.testStringMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA-COURSE-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.itstep.java_course_2023.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.itstep.java_course_2023.streams" />
+      <option name="MAIN_CLASS_NAME" value="edu.itstep.java_course_2023.streams.StreamTest" />
+      <option name="METHOD_NAME" value="testStringMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,12 +190,18 @@
       <item itemvalue="Application.RunApp" />
       <item itemvalue="Application.ListPersons" />
       <item itemvalue="JAR Application.Deploy" />
-      <item itemvalue="JUnit.RunAppTest.minus" />
+      <item itemvalue="JUnit.StreamTest.testMap" />
+      <item itemvalue="JUnit.StreamTest.testStringMap" />
+      <item itemvalue="JUnit.PropsTest.streamTest" />
+      <item itemvalue="JUnit.PropsTest.useGuava" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamTest.testStringMap" />
+        <item itemvalue="JUnit.StreamTest.testMap" />
+        <item itemvalue="JUnit.PropsTest.useGuava" />
+        <item itemvalue="JUnit.PropsTest.streamTest" />
         <item itemvalue="Application.ListPersons" />
-        <item itemvalue="JUnit.RunAppTest.minus" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +214,21 @@
       <option name="presentableId" value="Default" />
       <updated>1670865623876</updated>
     </task>
+    <task id="LOCAL-00001" summary="recent version">
+      <created>1676199826186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676199826186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="recent version">
+      <created>1676199948998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676199948998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +241,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recent version" />
+    <option name="LAST_COMMIT_MESSAGE" value="recent version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JAVA_COURSE_2023$ListPersons.ic" NAME="ListPersons Coverage Results" MODIFIED="1674059510411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

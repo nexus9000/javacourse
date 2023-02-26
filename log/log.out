@@ -73,3 +73,324 @@
 2023-02-10T18:16:05.228+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2023-02-10T18:16:06.065+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
 2023-02-10T18:16:06.127+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:07:39.940+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:07:40.113+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:07:40.131+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:07:41.521+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:07:41.553+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:07:41.553+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/albums]
+2023-02-12T13:07:41.554+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-12T13:07:41.555+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:07:41.560+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:07:42.809+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:07:44.333+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-12T13:38:24.851+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:38:24.937+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:38:24.942+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:38:26.172+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:38:26.180+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:38:26.180+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/test]
+2023-02-12T13:38:26.181+0200 INFO HHH10001001: Connection properties: {password=****, user=user}
+2023-02-12T13:38:26.181+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:38:26.187+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:38:26.900+0200 WARN HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:318)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:48)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:222)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:195)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:102)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:408)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at edu.itstep.java_course_2023.oop.ListPersons.initTable(ListPersons.java:56)
+	at edu.itstep.java_course_2023.oop.ListPersons.main(ListPersons.java:51)
+2023-02-12T13:38:26.947+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:38:26.978+0200 WARN SQL Error: 1045, SQLState: 28000
+2023-02-12T13:38:26.979+0200 ERROR Access denied for user 'user'@'172.17.0.1' (using password: YES)
+2023-02-12T13:40:12.393+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:40:12.489+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:40:12.496+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:40:13.718+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:40:13.727+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:40:13.727+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/test]
+2023-02-12T13:40:13.728+0200 INFO HHH10001001: Connection properties: {password=****, user=user}
+2023-02-12T13:40:13.728+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:40:13.731+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:40:14.495+0200 WARN HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:318)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:48)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:222)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:195)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:102)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:408)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at edu.itstep.java_course_2023.oop.ListPersons.initTable(ListPersons.java:56)
+	at edu.itstep.java_course_2023.oop.ListPersons.main(ListPersons.java:51)
+2023-02-12T13:40:14.533+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:40:14.558+0200 WARN SQL Error: 1045, SQLState: 28000
+2023-02-12T13:40:14.559+0200 ERROR Access denied for user 'user'@'172.17.0.1' (using password: YES)
+2023-02-12T13:48:25.282+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:48:25.383+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:48:25.388+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:48:26.394+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:48:26.401+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:48:26.401+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/test]
+2023-02-12T13:48:26.402+0200 INFO HHH10001001: Connection properties: {password=****, user=test}
+2023-02-12T13:48:26.402+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:48:26.406+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:48:27.029+0200 WARN HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:318)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:48)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:222)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:195)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:102)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:408)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at edu.itstep.java_course_2023.oop.ListPersons.initTable(ListPersons.java:56)
+	at edu.itstep.java_course_2023.oop.ListPersons.main(ListPersons.java:51)
+2023-02-12T13:48:27.060+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:48:27.077+0200 WARN SQL Error: 1045, SQLState: 28000
+2023-02-12T13:48:27.078+0200 ERROR Access denied for user 'test'@'172.17.0.1' (using password: YES)
+2023-02-12T13:48:57.720+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:48:57.788+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:48:57.792+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:48:58.815+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:48:58.821+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:48:58.821+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/test]
+2023-02-12T13:48:58.822+0200 INFO HHH10001001: Connection properties: {password=****, user=root}
+2023-02-12T13:48:58.822+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:48:58.828+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:48:59.516+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:49:00.629+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-12T13:55:33.527+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T13:55:33.622+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T13:55:33.629+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T13:55:34.696+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T13:55:34.702+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T13:55:34.703+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/test]
+2023-02-12T13:55:34.703+0200 INFO HHH10001001: Connection properties: {password=****, user=user}
+2023-02-12T13:55:34.703+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T13:55:34.708+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T13:55:35.337+0200 WARN HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:318)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:48)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:222)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:195)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:102)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:408)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at edu.itstep.java_course_2023.oop.ListPersons.initTable(ListPersons.java:56)
+	at edu.itstep.java_course_2023.oop.ListPersons.main(ListPersons.java:51)
+2023-02-12T13:55:35.368+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T13:55:35.387+0200 WARN SQL Error: 1045, SQLState: 28000
+2023-02-12T13:55:35.387+0200 ERROR Access denied for user 'user'@'172.17.0.1' (using password: YES)
+2023-02-12T14:02:55.875+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T14:02:55.961+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T14:02:55.965+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T14:02:57.000+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T14:02:57.008+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T14:02:57.009+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/test]
+2023-02-12T14:02:57.009+0200 INFO HHH10001001: Connection properties: {password=****, user=test}
+2023-02-12T14:02:57.009+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T14:02:57.014+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T14:02:57.890+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T14:02:59.103+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-12T17:22:33.546+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-12T17:22:33.660+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-12T17:22:33.667+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-12T17:22:34.889+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-12T17:22:34.897+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-12T17:22:34.897+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/javacourse]
+2023-02-12T17:22:34.898+0200 INFO HHH10001001: Connection properties: {password=****, user=javacourse}
+2023-02-12T17:22:34.898+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-12T17:22:34.904+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-12T17:22:35.722+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-12T17:22:37.072+0200 INFO HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@270a620] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-02-19T13:18:53.112+0200 DEBUG Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2023-02-19T13:18:53.233+0200 INFO HHH000412: Hibernate ORM core version 6.2.0.CR1
+2023-02-19T13:18:53.238+0200 INFO HHH000406: Using bytecode reflection optimizer
+2023-02-19T13:18:55.645+0200 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-02-19T13:18:55.672+0200 INFO HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-02-19T13:18:55.673+0200 INFO HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/javacourse]
+2023-02-19T13:18:55.673+0200 INFO HHH10001001: Connection properties: {password=****, user=javacourse}
+2023-02-19T13:18:55.674+0200 INFO HHH10001003: Autocommit mode: false
+2023-02-19T13:18:55.678+0200 INFO HHH10001115: Connection pool size: 3 (min=1)
+2023-02-19T13:18:55.924+0200 WARN HHH000342: Could not obtain connection to query metadata
+java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:262)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:318)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:48)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:501)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:367)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:552)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:105)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:125)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:248)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:283)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:150)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:222)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:195)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:102)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:408)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at edu.itstep.java_course_2023.oop.ListPersons.initTable(ListPersons.java:56)
+	at edu.itstep.java_course_2023.oop.ListPersons.main(ListPersons.java:51)
+2023-02-19T13:18:55.971+0200 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T13:18:55.994+0200 WARN SQL Error: 0, SQLState: 08S01
+2023-02-19T13:18:55.995+0200 ERROR Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-02-19T14:32:56.987+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.,8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-19T14:33:27.943+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-19T14:51:34.853+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:43:18.516+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:44:17.902+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:49:07.418+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:49:54.075+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:53:54.998+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T13:56:11.596+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
+2023-02-26T14:02:04.668+0200 INFO 9=VSAM retrieval errors occurred. For the specified date and time range, either partial data or no data at all could be retrieved.###8=data could not be retrieved. For the specified date and time range, either partial data or no data at all could be retrieved by the ERB3XDRS service because time gaps have been detected in the gathered data
